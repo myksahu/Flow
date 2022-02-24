@@ -6,13 +6,23 @@
 
 <html lang="en">
 <head>
-  <title>Navbar</title>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+  <script>
+    /* Demo purposes only */
+    $(".hover").mouseleave(
+      function () {
+        $(this).removeClass("hover");
+      }
+    );
+  </script>
 </head>
   <body>
 
@@ -42,22 +52,6 @@
           <li class="nav-item">
             <a class="nav-link" href="ContactUs.html">Contact Us</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Call</a>
-          </li> -->
-           <!-- <li class="nav-item dropdown dmenu">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu sm-menu">
-              <a class="dropdown-item" href="#">Link 1</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
-              <a class="dropdown-item" href="#">Link 4</a>
-              <a class="dropdown-item" href="#">Link 5</a>
-              <a class="dropdown-item" href="#">Link 6</a>
-            </div>
-          </li> -->
           </ul>
           <div class="FlowLogo">
             <img src="assets/FlowLogo.png" alt="Jane" class="logo">
@@ -69,5 +63,121 @@
           </div>
         </div>
       </nav>
+
+      <section id="Activities" class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="sectionHeader">
+              <h2 class="heading-section">Activities</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row rowCustom">
+          <div class="column">
+            <div class="card">
+              <img src="assets/paintingjpg.jpg" alt="painting" class="image">
+              <div class="container">
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="assets/yoga.jpg" alt="yoga" class="image" >
+              <div class="container">
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="assets/dance.jpg" alt="dance" class="image">
+              <div class="container">
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="column">
+            <div class="card">
+              <img src="assets/standup.jpg" alt="standup" class="image">
+              <div class="container">
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="assets/food.jpg" alt="cooking" class="image">
+              <div class="container">
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="sectionHeader">
+              <h2 class="heading-section">Testimonies</h2>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonyBlock">
+            <figure class="snip1574">
+              <img src="assets/iimb.jpg" alt="profile-sample2" />
+              <figcaption>
+                <blockquote>
+                  <p>'Flow Experiences' is among the top 100 start-ups being incubated by NSRCEL</p>
+                </blockquote>
+                <h3>IIM Bangalore</h3>
+                <h5>India</h5>
+              </figcaption>
+            </figure>
+            <figure class="snip1574"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample37.jpg" alt="profile-sample7" />
+              <figcaption>
+                <blockquote>
+                  <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                </blockquote>
+                <h3>Will Barrow</h3>
+                <h5>Web Designer</h5>
+              </figcaption>
+            </figure>
+            <figure class="snip1574"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample35.jpg" alt="profile-sample6" />
+              <figcaption>
+                <blockquote>
+                  <p>The only skills I have the patience to learn are those that have no real application in life. </p>
+                </blockquote>
+                <h3>Indigo Violet</h3>
+                <h5>Public Relations</h5>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="sectionHeader">
+              <h2 class="heading-section">Want to join us?</h2>
+            </div>
+          </div>
+        </div>
+        <div class="looking">
+          <p>We are looking for truly AWESOME facilitators who can conduct workshops, give performances or host/do any activity that falls under the category of art, recreational, leisure and wellness.</p>
+          <p>You can be a stand up comedian, a painter, a yoga and meditation trainer, storyteller, chef, musician, zumba instructor, dancer, DIY enthusiast, a therapist, theater artist, magician, someone who can conduct activities/sessions for relationship building or creative expression, etc.</p>
+          <form action="ContactUs.html">
+            <input style="background-color: rgba(0,0,0,0.2);" type="submit" value="Contact Us" />
+          </form>
+        </div>
+      </section>
+
 </body>
 </html>
