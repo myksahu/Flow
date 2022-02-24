@@ -1,0 +1,15 @@
+.FlowLogo{
+    position: relative;
+    right: calc(50% - 120px);
+    width: 150px;
+    margin-top: -8px;
+    margin-bottom: -8px
+}
+
+.logo{
+    width: 100%
+}
+
+.active{
+    background-color: #c8c9ca!important
+}
